@@ -56,13 +56,13 @@ int main()
     if(irLeft == 0 && irRight==1) {   
       drive_goto(21,21);   
       push(2);  
-      pause(200);               
+      pause(400);               
       drive_goto(30, -26); 
     }        
    if(irRight == 0 && irLeft==1){
       drive_goto(21,21);       
       push(3);
-      pause(200);                
+      pause(400);                
       drive_goto(-24, 28);   
     }                 
     
